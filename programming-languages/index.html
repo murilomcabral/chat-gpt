@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Programming Languages</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f1f1f1;
+            padding: 20px;
+        }
+
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .card {
+            background-color: #fff;
+            border-radius: 4px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            width: 300px;
+            text-align: center;
+            transition: transform 0.15s ease-in-out;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .card:hover {
+            transform: scale(1.05);
+        }
+
+        .card-title {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 10px;
+            color: #333;
+        }
+
+        .card-text {
+            margin-bottom: 20px;
+            color: #666;
+            flex-basis: 100%;
+        }
+
+        .card-logo {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 10px;
+        }
+
+        .card-link {
+            color: #337ab7;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        div > img {
+            max-height: 50px;
+            object-fit: contain;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <h2 class="card-title">Python</h2>
+            <p class="card-text">Python is a versatile and beginner-friendly language known for its simplicity and readability. It is widely used in various domains, including web development, data analysis, artificial intelligence, scientific computing, and automation.</p>
+            <img class="card-logo" src="https://www.python.org/static/img/python-logo.png" alt="Python Logo">
+            <a class="card-link" href="https://www.python.org">Python.org</a>
+        </div>
+
+        <div class="card">
+            <h2 class="card-title">JavaScript</h2>
+            <p class="card-text">JavaScript is primarily used for web development and runs on web browsers. It enables interactive and dynamic features on websites, such as validating forms, creating animations, and handling user events.</p>
+            <img class="card-logo" src="https://logospng.org/download/javascript/logo-javascript-icon-1024.png" alt="JavaScript Logo">
+            <a class="card-link" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">MDN JavaScript Guide</a>
+        </div>
+
+        <div class="card">
+            <h2 class="card-title">Java</h2>
+            <p class="card-text">Java is a general-purpose language used for developing desktop applications, Android apps, enterprise systems, and large-scale web applications. It is employed by companies like Google, Amazon, and Netflix.</p>
+            <img class="card-logo" src="https://static.javatpoint.com/core/images/java-logo1.png" alt="Java Logo">
+            <a class="card-link" href="https://www.oracle.com/java/">Oracle Java</a>
+        </div>
+
+        <div class="card">
+            <h2 class="card-title">C++</h2>
+            <p class="card-text">C++ is a powerful and efficient language used in system programming, game development, embedded systems, and high-performance applications. It is utilized by companies like Microsoft, Adobe, and Facebook.</p>
+            <img class="card-logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/ISO_C%2B%2B_Logo.svg/306px-ISO_C%2B%2B_Logo.svg.png?20170928190710g" alt="C++ Logo">
+            <a class="card-link" href="https://isocpp.org/">ISO C++</a>
+        </div>
+
+        <div class="card">
+            <h2 class="card-title">C#</h2>
+            <p class="card-text">C# is a language developed by Microsoft for building Windows applications, web services, and games. It is widely used in enterprise software development, and Unity, a popular game development engine, also utilizes C#.</p>
+            <img class="card-logo" src="https://seeklogo.com/images/C/c-sharp-c-logo-02F17714BA-seeklogo.com.png" alt="C# Logo">
+            <a class="card-link" href="https://docs.microsoft.com/en-us/dotnet/csharp/">C# Documentation</a>
+        </div>
+
+        <div class="card">
+            <h2 class="card-title">Swift</h2>
+            <p class="card-text">Swift is a programming language developed by Apple for iOS, macOS, watchOS, and tvOS development. It is the primary language used for developing iOS and macOS applications and is employed by developers building apps for Apple platforms.</p>
+            <img class="card-logo" src="https://www.swift.org/assets/images/swift.svg">
+            <a class="card-link" href="https://swift.org/">Swift.org</a>
+        </div>
+
+        <div class="card">
+            <h2 class="card-title">Ruby</h2>
+            <p class="card-text">Ruby is a dynamic, object-oriented language known for its simplicity and productivity. It is often used in web development, primarily with the Ruby on Rails framework. Ruby is favored by startups and is used in applications like Airbnb, GitHub, and Shopify.</p>
+            <img class="card-logo" src="https://www.ruby-lang.org/images/header-ruby-logo.png" alt="Ruby Logo">
+            <a class="card-link" href="https://www.ruby-lang.org/">Ruby Language</a>
+        </div>
+
+        <div class="card">
+            <h2 class="card-title">Go</h2>
+            <p class="card-text">Go (Golang) is a language developed by Google known for its simplicity, efficiency, and concurrency. It is used for systems programming, network servers, cloud services, and building scalable applications. Go is used by companies like Google, Dropbox, and Uber.</p>
+            <img class="card-logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Go_Logo_Blue.svg/215px-Go_Logo_Blue.svg.png" alt="Go Logo">
+            <a class="card-link" href="https://golang.org/">Go Programming Language</a>
+        </div>
+
+        <div class="card">
+            <h2 class="card-title">PHP</h2>
+            <p class="card-text">PHP is a server-side scripting language widely used for web development. It powers popular content management systems like WordPress and is used by Facebook, Yahoo, and Wikipedia.</p>
+            <img class="card-logo" src="https://www.php.net/images/logos/php-logo.svg" alt="PHP Logo">
+            <a class="card-link" href="https://www.php.net/">PHP.net</a>
+        </div>
+
+        <div class="card">
+            <h2 class="card-title">Rust</h2>
+            <p class="card-text">Rust is a modern systems programming language that emphasizes memory safety, performance, and concurrency. It is used for developing low-level systems software, such as operating systems, embedded systems, and game engines. Mozilla, the creator of Rust, uses it in their Firefox web browser.</p>
+            <img class="card-logo" src="https://www.rust-lang.org/static/images/rust-logo-blk.svg" alt="Rust Logo">
+            <a class="card-link" href="https://www.rust-lang.org/">Rust Programming Language</a>
+        </div>
+    </div>
+</body>
+</html>
